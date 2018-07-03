@@ -148,7 +148,7 @@ nav h1 a {
   padding: 30px 15px 60px;
   text-align: center;
 	display: flex;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 #restaurants-list li {
@@ -286,4 +286,23 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* ====================== Media Queries ====================== */
+@media only screen and (max-width: 600px) {
+	#restaurants-list li {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	#restaurants-list li {
+		max-width: 45%;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	#restaurants-list li {
+		max-width: 300px;
+	}
 }
