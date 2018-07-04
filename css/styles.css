@@ -27,6 +27,7 @@ ul, li {
 a {
 	color: orange;
 	text-decoration: none;
+	background-color: inherit;
 }
 a:hover, a:focus {
 	color: #3397db;
@@ -78,13 +79,13 @@ nav h1 a {
     padding: 15px;
     list-style: none;
     background-color: #eee;
-    font-size: 20pt;
 		margin: 0;
 }
 
 /* Display list items side by side */
 #breadcrumb li {
     display: inline;
+		font-size: 11pt;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -168,7 +169,7 @@ nav h1 a {
   max-width: 100%;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h3 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -182,7 +183,7 @@ nav h1 a {
   margin: 0;
   font-size: 11pt;
 }
-#restaurants-list li a {
+#restaurants-list li button {
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #fff;
@@ -244,7 +245,7 @@ nav h1 a {
   border-top: 1px solid #fff;
   padding: 30px 40px 80px;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
