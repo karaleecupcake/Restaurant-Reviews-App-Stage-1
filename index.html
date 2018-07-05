@@ -17,13 +17,14 @@
   </header>
 
   <main id="maincontent">
+    <a href="#filtercontent" class="skip-link">Skip to Filter Results</a>
     <section id="map-container">
       <div id="map"></div>
     </section>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <div class="filter-selects">
+        <div id="filtercontent" tabindex="-1" class="filter-selects">
           <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>

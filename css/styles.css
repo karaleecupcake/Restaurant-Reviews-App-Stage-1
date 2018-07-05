@@ -112,6 +112,19 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
 }
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #bf1722
+	color: white;
+	padding: 8px;
+	z-index: 100;
+}
+.skip-link: focus {
+	top: 0;
+}
+
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
