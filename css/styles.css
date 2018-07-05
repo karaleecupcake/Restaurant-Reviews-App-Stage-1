@@ -214,8 +214,14 @@ nav h1 a {
   letter-spacing: 0;
 	text-transform: uppercase;
 }
+#restaurant-imgage {
+	width: 100%;
+}
 #restaurant-img {
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 #restaurant-address {
   font-size: 15pt;
