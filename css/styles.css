@@ -151,6 +151,7 @@ nav h1 a {
 	height: 35px;
   letter-spacing: 0;
   width: 200px;
+	margin-right: 20px;
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -309,6 +310,13 @@ nav h1 a {
 @media only screen and (max-width: 600px) {
 	#restaurants-list li {
 		max-width: 100%;
+	}
+	.filter-options {
+		text-align: center;
+		margin: auto;
+	}
+	#cuisines-select {
+		margin-top: 20px;
 	}
 }
 
