@@ -1,5 +1,5 @@
 ﻿# Restaurant Reviews Apps
----
+
 ## Introduction
 
 The Restaurant Reviews App was a static webpage that was converted to a mobile-ready web application. The static design lacked accessibility and was converted to be responsive on different sized displays and accessible for screen reader use. A service worker was also added to begin the process of creating a seamless offline experience for users.
